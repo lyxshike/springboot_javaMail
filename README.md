@@ -3,6 +3,8 @@
 JavaMailSender， springboot中自带的邮件发送辅助类
   javaMialSender.send(simpleMailMessage); 就可以完成简单的邮件发送。
   如果发送HTML格式的邮件，或者附件的，则要借用mimeMessageHelper。
+  
+  
   public void sendAttachmentMail(MailBean mailBean) {
         MimeMessage mimeMailMessage = null;
         try {
